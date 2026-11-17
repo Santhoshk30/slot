@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Saveetha Engineering College Timetable</title>
+
+<style>
+body {
+    font-family: "Times New Roman", serif;
+    background: white;
+    text-align: center;
+}
+
+.container {
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo {
+    width: 580px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.student {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 5px solid gray;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 13px 7px;
+    font-size: 15px;
+}
+
+th {
+    background: yellow;
+    font-weight: bold;
+}
+
+td {
+    background: #00dddd;
+    font-weight: bold;
+}
+
+.free {
+    background: #00dddd;
+    color: #004d55;
+    font-weight: bold;
+}
+
+.subject-table {
+    border: 3px solid gray;
+}
+
+.subject-table th {
+    background: white;
+}
+
+.subject-table td {
+    background: white;
+    text-align: left;
+    font-weight: normal;
+}
+
+.subject-table td:first-child {
+    text-align: center;
+}
+
+@media(max-width:700px) {
+    .container {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 850px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo"
+alt="Saveetha Engineering College">
+
+<h2>SLOT TIME TABLE</h2>
+
+<p class="student">SANTHOSH K (26016599)</p>
+
+<!-- MAIN TIME TABLE -->
+
+<table>
+
+<tr>
+<th>Day/Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+</tr>
+
+<tr>
+<th>8:00 - 9:29</th>
+<td>CDS</td>
+<td>Not Specified</td>
+<td class="free">FREE SLOT</td>
+<td>CE</td>
+<td>SNM</td>
+<td class="free">FREE SLOT</td>
+</tr>
+
+<tr>
+<th>9:45 - 11:14</th>
+<td>BEE</td>
+<td>FWAD</td>
+<td class="free">FREE SLOT</td>
+<td>SNM</td>
+<td>FWAD</td>
+<td>DE</td>
+</tr>
+
+<tr>
+<th>11:30 - 12:14</th>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+</tr>
+
+<tr>
+<th>1:15 - 2:44</th>
+<td>FWAD</td>
+<td>DE</td>
+<td>Python</td>
+<td>Japanese</td>
+<td>Japanese</td>
+<td>CE</td>
+</tr>
+
+<tr>
+<th>3:00 - 4:29</th>
+<td>Python</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+<td class="free">FREE SLOT</td>
+</tr>
+
+</table>
+
+<!-- SUBJECT DETAILS -->
+
+<h3>SUBJECT DETAILS</h3>
+
+<table class="subject-table">
+
+<tr>
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+
+<tr>
+<td>1.</td>
+<td>19EY708</td>
+<td>Career Development Skills (CDS)</td>
+</tr>
+
+<tr>
+<td>2.</td>
+<td>19EE305</td>
+<td>Basic Electrical, Electronics and Measurement Engineering (BEE)</td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>19AI414</td>
+<td>Fundamentals of Web Application Development (FWAD)</td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>19AI301</td>
+<td>Python Programming</td>
+</tr>
+
+<tr>
+<td>5.</td>
+<td>19EE404</td>
+<td>Digital Electronics (DE)</td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>19EN101</td>
+<td>Communicative English (CE)</td>
+</tr>
+
+<tr>
+<td>7.</td>
+<td>19MA211</td>
+<td>Statistics and Numerical Methods (SNM)</td>
+</tr>
+
+<tr>
+<td>8.</td>
+<td>19GE624</td>
+<td>Japanese Language N5 Basic (Japanese)</td>
+</tr>
+
+</table>
+
+</div>
+</body>
+</html>
